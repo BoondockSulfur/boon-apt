@@ -1,0 +1,24 @@
+Architectures: amd64
+Codename: trixie
+Components: main
+Date: Thu, 09 Jul 2026 21:05:37 +0000
+Description: BooN-OS package repository
+Label: BooN-OS
+Origin: BooN-OS
+Suite: trixie
+MD5Sum:
+ dcff94df35cef60981338c7ad7bcd594              178 Release
+ b10e5d0b0c7adf3622b12f9dc620cfb1              909 main/binary-amd64/Packages
+ 426be6c201a68c818d80cadcf744cf79              627 main/binary-amd64/Packages.gz
+SHA1:
+ 1957c6f1853a5ca5dcabc82a325750f98e630b88              178 Release
+ ada67ed59f62b730247554823b41d8f37e53568b              909 main/binary-amd64/Packages
+ 767dcfa239d3f907b08f3ab94b9afd631e30b7c0              627 main/binary-amd64/Packages.gz
+SHA256:
+ e8bd91e210cb216aee43b0233e1d5dceabbd6effc9c187fe037ce5a8d292f961              178 Release
+ b7fe1e475dfcd20d6bfab86fee96527c74859d237dfffb64714310521ba71333              909 main/binary-amd64/Packages
+ 4447795e6e8c543c108c2c0602e26f6fbfff180f53710c80b4f342de3e858ee4              627 main/binary-amd64/Packages.gz
+SHA512:
+ eef21ff88d3d41eb7d954c95731725178510c0d88b21678422267c41fc35c456a5d528f5fe47cecfb32d203b6011acc8128b05962adcbfecbd93d4674b8ba634              178 Release
+ 16385cc8ffffddb8a6fe373e2ae2432b194a1c0d869aa8a9f55a19251e11ebf92ddf751359641b6c3eaa01dbc2d8fed89d72a6851ea4445cd396a40466b10da7              909 main/binary-amd64/Packages
+ 11b322e3e8aa2b540bf96da56d90c587874b9de017e380dcb289c46cbca5b86e7bbde7e8049ef789a8f52ead5aafe8f3537266ad99ebed0ab4d711f922eaa39d              627 main/binary-amd64/Packages.gz

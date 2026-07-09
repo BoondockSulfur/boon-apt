@@ -1,0 +1,16 @@
+Package: boon-transfer
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Maintainer: BoondockSulfur
+Installed-Size: 17204
+Depends: libwebkit2gtk-4.1-0, libgtk-3-0
+Filename: pool/main/b/boon-transfer/boon-transfer_1.0.0_amd64.deb
+Size: 7686900
+MD5sum: 2f6d24f2ee55491c0577bb73210e63e4
+SHA1: 58168837ddef9b31e1fe52c324c22d49a1df5957
+SHA256: 6db2c1d2c198776a3dea48c518b54279e71f6c23534a25bfc1618c18f9ae1c7c
+SHA512: 3ba6127364af4389a41a85d66b232ca6531ba88f4e0d11c6af591e72e60878da70f17b15a93bc8ab9e41c637b1dab0adcae392f2992fdb989e22d98295e61300
+Description: Dual-pane SFTP/SCP/FTP/FTPS file transfer client
+ BooN Transfer is a dual-pane file transfer client for SFTP, SCP, FTP and FTPS with saved sessions, a background transfer queue with pause/resume, directory synchronisation, a built-in editor, and secure credential storage via the system keyring. Built on russh and rustls — no OpenSSL, no libssh2.
+
