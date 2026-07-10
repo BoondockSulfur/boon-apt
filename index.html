@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>boon-apt — BooN-OS-Paketquelle</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(180deg, #101416 0%, #1A322C 100%);
+    color: #F2F5F4; font-family: "Noto Sans", system-ui, sans-serif;
+  }
+  main { max-width: 640px; padding: 48px 24px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h1 .b { background: linear-gradient(135deg, #22C99A, #4A9EFF); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  p.sub { color: #9DB4AD; margin-top: 0; }
+  pre {
+    background: #0C1210; border: 1px solid #2A423A; border-radius: 12px;
+    padding: 16px; overflow-x: auto; font-size: 0.85rem; line-height: 1.5;
+  }
+  code { color: #22C99A; }
+  a { color: #4A9EFF; }
+  .foot { color: #9DB4AD; font-size: 0.8rem; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="b">boon-apt</span> — BooN-OS-Paketquelle</h1>
+  <p class="sub">Offizielles APT-Repository für BooN-OS-eigene Pakete (Debian 13 „Trixie", amd64).</p>
+  <p><strong>BooN-OS (ab v0.24) bringt diese Quelle bereits mit</strong> — hier ist nichts einzurichten.
+     Auf einem anderen Debian-13-System:</p>
+  <pre><code>curl -fsSL https://boondocksulfur.github.io/boon-apt/boon-os-archive-key.asc \
+  | sudo gpg --dearmor -o /usr/share/keyrings/boon-os-archive-keyring.gpg
+
+sudo tee /etc/apt/sources.list.d/boon-os.sources &lt;&lt; 'EOF'
+Types: deb
+URIs: https://boondocksulfur.github.io/boon-apt
+Suites: trixie
+Components: main
+Architectures: amd64
+Signed-By: /usr/share/keyrings/boon-os-archive-keyring.gpg
+EOF
+
+sudo apt update</code></pre>
+  <p>Signiert mit dem BooN-OS Signing Key<br>
+     <code>B6AC 0F64 EFAA C092 C0FB C30C F910 6F5C 7DB0 7765</code></p>
+  <p class="foot">Quelle & Pflege: <a href="https://github.com/BoondockSulfur/boon-apt">github.com/BoondockSulfur/boon-apt</a> · Freedom. Performance. Yours.</p>
+</main>
+</body>
+</html>
